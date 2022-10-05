@@ -10,6 +10,6 @@ public class HelloController {
 
 	@RequestMapping(method = RequestMethod.GET, value = "/api/add2/add5/add6")
 		public String sayHello() {
-		return "Swagger Hello World";
+		return "Swagger Hello World test7";
 	}
 }
