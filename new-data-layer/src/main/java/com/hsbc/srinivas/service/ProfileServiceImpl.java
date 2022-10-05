@@ -43,6 +43,10 @@ public class ProfileServiceImpl implements ProfileService{
 		rule.setRuleValue("HKDRPCCEUR");
 		rules.add(rule);
 		
+		rule = new Rule();
+		rule.setRuleValue("HKDRPCCEUB");
+		rules.add(rule);
+		
 		
 		rule = new Rule();
 		rule.setRuleValue("HKDRPCCINR");
