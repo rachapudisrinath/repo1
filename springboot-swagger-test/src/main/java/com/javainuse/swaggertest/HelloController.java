@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class HelloController {
 	
-	@RequestMapping(method = RequestMethod.GET, value = "/api/test")
+	@RequestMapping(method = RequestMethod.GET, value = "/api/add2/add5")
 	public String sayHello() {
 		return "Swagger Hello World";
 	}
