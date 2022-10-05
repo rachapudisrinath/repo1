@@ -23,16 +23,22 @@ public class SwaggerConfig {
 				.apiInfo(apiInfo()).select().paths(postPaths()).build();
 	}
 
+
 	private Predicate<String> postPaths() {
 		return or(regex("/api/posts.*"), regex("/api/*.*"));
 	}
+
 
 	private ApiInfo apiInfo() {
 		return new ApiInfoBuilder().title("JavaInUse API")
 				.description("JavaInUse API reference for developers")
 				.termsOfServiceUrl("http://javainuse.com")
-				.contact("javainuse@gmail.com").license("JavaInUse License testssffffsss")
+				.contact("javainuse@gmail.com").license("JavaInUse License testsssssss")
 				.licenseUrl("javainuse@gmail.com").version("1.0").build();
 	}
 
 }
+
+	
+}
+
