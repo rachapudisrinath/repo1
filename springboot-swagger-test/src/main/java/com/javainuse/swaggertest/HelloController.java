@@ -8,8 +8,8 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloController {
 	
 
-	@RequestMapping(method = RequestMethod.GET, value = "/test5")
+	@RequestMapping(method = RequestMethod.GET, value = "/test56")
 		public String sayHello() {
-		return "Swagger Hello World";
+		return "Swagger Hello World6";
 	}
 }
